@@ -1,0 +1,37 @@
+.cuadradito {
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    animation-name: cuadrado;
+    animation-duration: 3s;
+}
+
+@keyframes cuadradoAnim {
+    from {
+        background-color: violet;
+    }
+    to {
+        background-color: burlywood;
+    }
+}
+
+.cuadradito2 {
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    animation-name: cuadradoAnim2;
+    animation-duration: 5s;
+}
+
+@keyframes cuadradoAnim2 {
+    0% {
+        background-color: violet;
+    }
+    33% {
+        background-color: yellow;
+        width: 100%;
+    }
+    75% {
+        background-color: yellowgreen;
+    }
+}
